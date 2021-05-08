@@ -1,0 +1,98 @@
+/*#ID
+.class*/
+* {
+	box-sizing: border-box;
+
+}
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+.all-menu-items{
+width: 100%;
+text-align: center;
+}
+
+.menu-item-c, .menu-item-b, .menu-item-s{
+	background-color: #747780;
+	border: 1px solid black;
+}
+#chicken-par, #beef-par, #sushi-par {
+	font-size: 1.1em;
+	font-weight: bold;
+	box-sizing: border-box;
+
+}
+#chicken {
+
+	background-color: #e693c2;
+	border: 1px solid black;
+	width: 30%;
+	height: 10%;
+	font-weight: bold;
+	text-align: center;
+	float:right;
+	box-sizing: border-box;
+
+}
+#beef {
+	background-color: #d62215;
+	border: 1px solid black;
+	width: 30%;
+	height: 10%;
+	font-weight: bold;
+	text-align: center;
+	float:right;
+	box-sizing: border-box;
+}
+#sushi {
+	background-color: #c9c14b;
+	border: 1px solid black;
+	width: 30%;
+	height: 10%;
+	font-weight: bold;
+	text-align: center;
+	float:right;
+	box-sizing: border-box;
+
+}
+.menu-par{
+    width: 90%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px){
+.menu-item-c, .menu-item-b, .menu-item-s{
+	
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+.menu-item-c, .menu-item-b{
+	display: inline-block;
+	width: 49%;
+	text-align: justify;
+	margin-top: 20px;
+	
+}
+.menu-item-s{
+	display: inline-block;
+	width: 98.4%;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+}
+@media (max-width: 767px){
+.menu-item-c, .menu-item-b, .menu-item-s{
+	margin-top: 20px;
+}
+}
